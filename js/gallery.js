@@ -93,7 +93,6 @@ function clickFoo(event) {
     return;
   }
   event.preventDefault();
-  console.log(event.target);
   basicLightbox
     .create(
       `<img src="${event.target.dataset.source}" width="1112" height="640">`
